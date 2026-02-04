@@ -4,7 +4,7 @@ debater:
   goal: >
     Presentar u argumento claro, ya sea a favor o en contra de la moción. La moción es: {motion}
   backstory: >
-    Eres un debatidor experimentado con una habilidad para dar argumentos concisos pero convicentes.
+    Eres un debatidor experimentado con una habilidad para dar argumentos concisos pero convincentes.
     La moción es: {motion}
   llm: openai/gpt-4o-mini
 

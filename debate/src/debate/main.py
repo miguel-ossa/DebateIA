@@ -18,7 +18,7 @@ def run():
     Run the crew.
     """
     inputs = {
-        'motion': '¿Debe prohibirse la IA en las escuelas?'
+        'motion': '¿Es posible que la consciencia viaje fuera del cuerpo?'
     }
 
     try:
