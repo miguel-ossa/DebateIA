@@ -1,0 +1,9 @@
+Tras revisar los argumentos presentados por ambos lados del debate sobre si debe prohibirse la inteligencia artificial (IA) en las escuelas, considero que el argumento a favor de la prohibición es menos convincente en comparación con el argumento en contra.
+
+El argumento a favor de la prohibición se enfoca en preocupaciones válidas: la dependencia de la IA podría debilitar habilidades fundamentales, la desigualdad en el acceso a la educación, problemas de ética y privacidad, y la posible desfiguración del rol del docente. Sin embargo, aunque estos puntos son importantes, no abordan el potencial transformador de la IA y las oportunidades que esta tecnología puede ofrecer para mejorar el aprendizaje y la enseñanza.
+
+Por otro lado, los argumentos en contra de la prohibición enfatizan el potencial positivo de la IA: su capacidad para personalizar la educación, desarrollar habilidades críticas para el futuro, complementar el rol de los educadores y cerrar brechas educativas. Estos puntos destacan no solo las ventajas de utilizar la IA, sino también la necesidad de integrarla de manera consciente y ética en el entorno escolar.
+
+La propuesta en contra de la moción no solo defiende la inclusión de la IA en las aulas, sino que también sugiere que con políticas y regulaciones adecuadas, se pueden abordar las preocupaciones planteadas, volviendo a la IA una herramienta que enriquezca la educación en lugar de presentarla como una amenaza.
+
+Por lo tanto, la decisión es que el lado en contra de la prohibición de la IA en las escuelas es más convincente, ya que ofrece una visión más amplia y optimista sobre el potencial de la IA en el ámbito educativo, argumentando que la clave está en su implementación responsable y ética.

@@ -1,0 +1,9 @@
+Prohibir la inteligencia artificial (IA) en las escuelas es una decisión necesaria para garantizar una educación de calidad y proteger el desarrollo holístico de los estudiantes. Primero, la dependencia excesiva de la IA puede debilitar habilidades fundamentales como el pensamiento crítico, la resolución de problemas y la creatividad. Los estudiantes se acostumbran a buscar respuestas inmediatas en lugar de desarrollar su capacidad para pensar de manera autónoma, lo cual es crucial en un mundo cada vez más complejo.
+
+En segundo lugar, la IA puede fomentar la desigualdad en el acceso a la educación. No todos los estudiantes tienen igual acceso a la tecnología requerida para beneficiarse de las herramientas basadas en IA. Aquellos de contextos socioeconómicos desfavorables pueden verse aún más rezagados, amplificando la brecha educativa existente.
+
+Además, hay preocupaciones éticas y de privacidad. Las herramientas de IA pueden recopilar datos sensibles de los estudiantes, lo que plantea riesgos sobre cómo se utilizan y protegen esos datos. La educación debería centrarse en el bienestar de los estudiantes y en crear un entorno seguro para su desarrollo, no en poner en riesgo su privacidad.
+
+Por último, la calidad de la enseñanza puede verse comprometida. Los educadores son fundamentales en el proceso de aprendizaje, y la integración de la IA puede desdibujar el rol del docente, transformándolo en un mero facilitador en lugar de un guía activo que inspire a los estudiantes.
+
+Por todas estas razones, es imperativo prohibir la IA en las escuelas. Necesitamos priorizar un enfoque educativo que fomente la creatividad, la igualdad y la seguridad de nuestros estudiantes.

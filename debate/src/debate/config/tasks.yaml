@@ -1,17 +1,27 @@
-research_task:
+propose:
   description: >
-    Conduct a thorough research about {topic}
-    Make sure you find any interesting and relevant information given
-    the current year is {current_year}.
+    Estás proponiendo la moción: {motion}.
+    Elabora un argumento claro a favor de la moción.
+    Sé muy convincente.
   expected_output: >
-    A list with 10 bullet points of the most relevant information about {topic}
-  agent: researcher
+    Tu argumento claro a favor de la moción, de manera concisa.
+  agent: debater
+  output_file: output/propose.md
 
-reporting_task:
+oppose:
   description: >
-    Review the context you got and expand each topic into a full section for a report.
-    Make sure the report is detailed and contains any and all relevant information.
+    Estás en oposición a la moción: {motion}.
+    Elabora un argumento claro en contra de la moción.
+    Sé muy convincente.
   expected_output: >
-    A fully fledged report with the main topics, each with a full section of information.
-    Formatted as markdown without '```'
-  agent: reporting_analyst
+    Tu argumento claro en contra de la moción, de manera concisa.
+  agent: debater
+  output_file: output/oppose.md
+
+decide:
+  description: >
+    Revisa lor argumentos presentados por los debatidores y decide qué lado es más convincente.
+  expected_output: >
+    Tu decisión sobre qué lado es más convincente, y por qué.
+  agent: judge
+  output_file: output/decide.md
