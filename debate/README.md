@@ -1,54 +1,75 @@
 # Debate Crew
 
-Welcome to the Debate Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+AI-powered debate system using crewAI. Two agents (debater and judge) engage in a structured debate on any given motion, followed by a final decision from the judge.
+
+## Features
+
+- **Debater Agent**: Presents persuasive arguments for or against a given motion
+- **Judge Agent**: Evaluates arguments and decides which side is more compelling
+- **Sequential Process**: Propose → Oppose → Decide workflow
+- **Spanish Language**: Fully localized interface
+- **Configurable**: Easy YAML configuration for agents and tasks
 
 ## Installation
 
-Ensure you have Python >=3.10 <3.14 installed on your system. This project uses [UV](https://docs.astral.sh/uv/) for dependency management and package handling, offering a seamless setup and execution experience.
-
-First, if you haven't already, install uv:
+Ensure you have Python >=3.10 <3.14 installed on your system. This project uses [UV](https://docs.astral.sh/uv/) for dependency management.
 
 ```bash
+# Install UV
 pip install uv
+
+# Install dependencies
+uv sync
 ```
 
-Next, navigate to your project directory and install the dependencies:
+## Configuration
 
-(Optional) Lock the dependencies and install them by using the CLI command:
-```bash
-crewai install
-```
-### Customizing
+1. Add your `OPENAI_API_KEY` to the `.env` file
+2. Configure agents in `src/debate/config/agents.yaml`
+3. Configure tasks in `src/debate/config/tasks.yaml`
 
-**Add your `OPENAI_API_KEY` into the `.env` file**
+## Usage
 
-- Modify `src/debate/config/agents.yaml` to define your agents
-- Modify `src/debate/config/tasks.yaml` to define your tasks
-- Modify `src/debate/crew.py` to add your own logic, tools and specific args
-- Modify `src/debate/main.py` to add custom inputs for your agents and tasks
-
-## Running the Project
-
-To kickstart your crew of AI agents and begin task execution, run this from the root folder of your project:
+Run a debate on any topic:
 
 ```bash
-$ crewai run
+crewai run --motion "¿La inteligencia artificial debería ser regulada?"
 ```
 
-This command initializes the debate Crew, assembling the agents and assigning them tasks as defined in your configuration.
+The system will:
+1. **Propose**: Present arguments in favor of the motion
+2. **Oppose**: Present arguments against the motion
+3. **Decide**: Judge evaluates both sides and makes a final decision
 
-This example, unmodified, will run the create a `report.md` file with the output of a research on LLMs in the root folder.
+Output files will be saved to the `output/` directory:
+- `output/propose.md` - Arguments in favor
+- `output/oppose.md` - Arguments against
+- `output/decide.md` - Judge's decision
 
-## Understanding Your Crew
+## Project Structure
 
-The debate Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
+```
+debate/
+├── src/debate/
+│   ├── config/
+│   │   ├── agents.yaml      # Agent definitions
+│   │   └── tasks.yaml       # Task definitions
+│   ├── crew.py              # Crew orchestration
+│   └── main.py              # Entry point
+├── output/                  # Generated reports
+├── .env                     # Environment variables
+├── pyproject.toml           # Project dependencies
+└── README.md               # This file
+```
 
-## Support
+## LLM Model
 
-For support, questions, or feedback regarding the Debate Crew or crewAI.
-- Visit our [documentation](https://docs.crewai.com)
-- Reach out to us through our [GitHub repository](https://github.com/joaomdmoura/crewai)
-- [Join our Discord](https://discord.com/invite/X4JWnZnxPb)
-- [Chat with our docs](https://chatg.pt/DWjSBZn)
+Currently configured to use `openai/gpt-4o-mini` for efficient and cost-effective AI-powered debates.
 
-Let's create wonders together with the power and simplicity of crewAI.
+## Contributing
+
+Feel free to customize the agents, tasks, or add tools to enhance the debate system.
+
+## License
+
+MIT
